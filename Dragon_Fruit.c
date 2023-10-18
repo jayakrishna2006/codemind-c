@@ -1,11 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
-    c=a+b;
-    
+    int c;
     scanf("%d",&c);
-    if(c%2==0&&c!=2){
+    if(c%2==0 && c!=2){
         printf("YES");
     }
     else{
